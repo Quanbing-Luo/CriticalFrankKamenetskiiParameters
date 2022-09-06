@@ -1,0 +1,3 @@
+clear;
+[x,fval,exitflag,output] = ... 
+   fminbnd(@cos,3,4,optimset('Display','iter'))
